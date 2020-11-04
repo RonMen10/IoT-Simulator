@@ -1,0 +1,33 @@
+{
+  "data": [
+    {
+      "deviceId": "11c1310e-c0c2-461b-a4eb-f6bf8da2d23c",
+      "temperature": 12,
+      "location": {
+        "latitude": 52.14691120000001,
+        "longitude": 11.658838699999933
+      },
+      "time": 1509793231
+    },
+    {
+      "deviceId": "12c2210e-c0c2-451b-a4eb-f6bf8da2d33c",
+      "temperature": 20,
+      "location": {
+        "latitude": 21.14691120000001,
+        "longitude": 23.658838699999933
+      },
+      "time": 2009793231
+    },
+    {
+      "deviceId": "13c1410e-c0c2-461b-a4eb-f6bf8da2d43c",
+      "temperature": 22,
+      "location": {
+        "latitude": 23.14691120000001,
+        "longitude": 33.658838699999933
+      },
+      "time": 2509793231
+    }
+  ]
+}
+
+
