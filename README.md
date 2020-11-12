@@ -11,13 +11,16 @@ Once this is done, the following queries are performed over the database to coll
 
 *castedData.groupBy("device-id").max(TEMPERATURE).orderBy(ID).show();*
 
-![](images/q1.png)
+<p align = "center">
+  <img src= "https://github.com/RonMen10/IoT-Simulator/blob/main/images/q1.png" width = "300" height = "150" / >
 
 **QUERY 2 :The amount of data points aggregated for every device.**
 
 *castedData.groupBy("device-id").count().show();*
 
-![](images/q2.png)
+<p align = "center">
+  <img src= "https://github.com/RonMen10/IoT-Simulator/blob/main/images/q2.png" width = "260" height = "130" / >
+
 
 
 **QUERY 3 :The highest temperature measured on a given day for every device.**
@@ -28,4 +31,5 @@ Once this is done, the following queries are performed over the database to coll
   
   *castedData2.where(col("timestamp").$less$eq(timestampConverter(givenDay) + 86400)).groupBy("device-id").max(TEMPERATURE).orderBy(ID).show();*
 
-![](images/q3.png)
+<p align = "center">
+  <img src= "https://github.com/RonMen10/IoT-Simulator/blob/main/images/q3.png" width = "300" height = "150" / >
